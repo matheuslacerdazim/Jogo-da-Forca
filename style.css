@@ -1,0 +1,64 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+    overflow: hidden;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main div {
+    padding-bottom:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 6px;
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.8);
+  }
+
+  span {
+    text-align: center;
+  }
+
+  input {
+    border-radius: 6px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  button {
+    padding: 5px;
+    border-radius: 6px;
+    flex-basis: 5%;
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(255, 102, 0, 0.5);
+  }
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  #btnNovaPalavra {
+    font-size: 20px;
+  }
+
+  #btnVerificarPalavra {
+    font-size: 25px;
+  }
