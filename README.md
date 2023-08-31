@@ -9,11 +9,11 @@ de letras jogadas são características principais do jogo. O código é organiz
 para facilitar a compreensão e manutenção.
 
 Recursos:
+- Sorteio aleatório de palavras de uma lista predefinida.
+- Acompanhamento das letras jogadas pelo jogador.
+- Atualização visual da forca à medida que erros são cometidos.
+- Interface responsiva com CSS personalizado.
 
-Sorteio aleatório de palavras de uma lista predefinida.
-Acompanhamento das letras jogadas pelo jogador.
-Atualização visual da forca à medida que erros são cometidos.
-Interface responsiva com CSS personalizado.
 Sinta-se à vontade para ajustar ou expandir essa descrição de acordo com suas preferências e 
 para adicionar detalhes adicionais sobre o projeto, como instruções de como executá-lo ou qualquer 
 outra informação relevante.
